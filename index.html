@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The personal portfolio of Umrain Sayyed, an aspiring frontend developer and B.Tech student.">
+  <title>Umrain Sayyed | Aspiring Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Umrain Sayyed, home">us<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> OPEN TO LEARNING &amp; OPPORTUNITIES</p>
+          <h1>Hi, I’m<br><span>Umrain Sayyed.</span></h1>
+          <p class="hero-role">Aspiring Frontend Developer</p>
+          <p class="hero-intro">I’m a third-year B.Tech student who enjoys turning ideas into clean, welcoming, and
+            responsive web experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Contact me <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span> Curious by nature. Building one project at a time.
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Decorative illustration representing web development">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-spark spark-one">✳</div>
+          <div class="art-spark spark-two">✳</div>
+          <div class="code-card">
+            <div class="code-topbar"><span></span><span></span><span></span>
+              <p>my-first-page.html</p>
+            </div>
+            <div class="code-content">
+              <p><span class="code-muted">01</span> <span class="code-purple">&lt;main&gt;</span></p>
+              <p><span class="code-muted">02</span> &nbsp;&nbsp;<span class="code-green">&lt;h1&gt;</span>Hello,
+                world!<span class="code-green">&lt;/h1&gt;</span></p>
+              <p><span class="code-muted">03</span> &nbsp;&nbsp;<span class="code-blue">&lt;p&gt;</span>Made with
+                curiosity<span class="code-blue">&lt;/p&gt;</span></p>
+              <p><span class="code-muted">04</span> <span class="code-purple">&lt;/main&gt;</span></p>
+              <div class="code-cursor"></div>
+            </div>
+          </div>
+          <div class="floating-badge badge-html"><span>&lt;/&gt;</span> HTML</div>
+          <div class="floating-badge badge-css"><span>✦</span> CSS</div>
+          <div class="art-caption"><span>FIG. 01</span> THE START OF SOMETHING</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-layout">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Learning today.<br><span>Building for tomorrow.</span></h2>
+        </div>
+        <div class="about-copy">
+          <p class="about-lead">I’m a beginner frontend developer with a genuine interest in how thoughtful design and
+            simple code can make the web better for everyone.</p>
+          <p>As a third-year B.Tech student, I’m building my foundation in HTML, CSS, and JavaScript through hands-on
+            projects. I enjoy learning by doing, paying attention to the small details, and making websites that work
+            beautifully on any screen.</p>
+          <p>Every project is a chance to learn something new—and I’m excited to keep growing as a developer.</p>
+          <a class="text-link about-link" href="#education">A little more about my journey <span
+              aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="container about-facts">
+        <div class="fact"><span class="fact-number">01</span><span>Curious mindset</span></div>
+        <div class="fact"><span class="fact-number">02</span><span>Learning by building</span></div>
+        <div class="fact"><span class="fact-number">03</span><span>Always improving</span></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading centered-heading">
+          <p class="eyebrow">WHAT I’M LEARNING</p>
+          <h2>My starter <span>toolkit.</span></h2>
+          <p class="section-intro">The building blocks I’m using to bring ideas to life on the web.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon icon-html" aria-hidden="true">&lt;/&gt;</div>
+            <div>
+              <h3>HTML</h3>
+              <p>Writing clear, semantic page structure.</p>
+            </div>
+            <span class="skill-index">01</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-css" aria-hidden="true">✳</div>
+            <div>
+              <h3>CSS</h3>
+              <p>Styling interfaces with care and creativity.</p>
+            </div>
+            <span class="skill-index">02</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-js" aria-hidden="true">JS</div>
+            <div>
+              <h3>JavaScript</h3>
+              <p>Adding useful, interactive behavior.</p>
+            </div>
+            <span class="skill-index">03</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon icon-responsive" aria-hidden="true">◫</div>
+            <div>
+              <h3>Responsive web design</h3>
+              <p>Creating layouts for every screen size.</p>
+            </div>
+            <span class="skill-index">04</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="projects-heading">
+          <div class="section-heading">
+            <p class="eyebrow">PRACTICE IN PROGRESS</p>
+            <h2>Selected <span>projects.</span></h2>
+          </div>
+          <p class="projects-intro">A few projects I’m working on as I learn to create helpful, user-friendly websites.
+          </p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-portfolio">
+              <div class="mini-window portfolio-window">
+                <div class="mini-topbar"><i></i><i></i><i></i></div>
+                <div class="portfolio-preview"><span>ASPIRING FRONTEND DEVELOPER</span><b>UMRAIN SAYYED.</b><i></i><i></i></div>
+              </div>
+              <span class="visual-number">01 / 03</span>
+              <span class="visual-mark">✳</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>PERSONAL PORTFOLIO</span><span>01</span></div>
+              <h3>Umrain Sayyed Portfolio</h3>
+              <p>A responsive portfolio introducing me, highlighting my frontend journey, and sharing selected projects.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-shop">
+              <div class="mini-window shop-window">
+                <div class="shop-nav">
+                  <b>Flip<span>shope</span></b>
+                  <span>Home &nbsp; Products &nbsp; Categories</span>
+                  <i class="shop-search">Search products...</i>
+                  <span>Cart 0</span>
+                </div>
+                <div class="shop-content">
+                  <span>A LITTLE JOY IN EVERY ORDER</span>
+                  <b>Shop Smart,<br>Save More!</b>
+                  <i>Shop Now &nbsp; →</i>
+                </div>
+                <div class="shop-sale"><b>GOOD<br>FINDS</b><span>GOOD DAYS</span></div>
+              </div>
+              <span class="visual-number">02 / 03</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>DESIGN PRACTICE</span><span>02</span></div>
+              <h3>Flipshope E-commerce Website</h3>
+              <p>A cheerful shopping homepage concept with product search, simple navigation, and a bold savings-focused hero.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive design</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-restaurant">
+              <div class="restaurant-preview">
+                <div class="restaurant-nav"><b><span aria-hidden="true">✳</span> Foodies <i>Restaurant</i></b><span>Home &nbsp; About &nbsp; Menu &nbsp; Gallery</span></div>
+                <div class="restaurant-room" aria-hidden="true"></div>
+                <div class="restaurant-copy">
+                  <span class="restaurant-label">GOOD FOOD. GOOD MOOD.</span>
+                  <b>Delicious Food,<br>Happy Moments</b>
+                  <p>Fresh flavors, comforting favorites, and a warm welcome at every table.</p>
+                  <span class="restaurant-button">Explore Menu &nbsp; →</span>
+                </div>
+              </div>
+              <span class="visual-number">03 / 03</span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>DESIGN PRACTICE</span><span>03</span></div>
+              <h3>Foodies Restaurant Website</h3>
+              <p>A restaurant homepage concept featuring a welcoming dining-room hero, menu navigation, and reservation-inspired calls to action.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>Responsive design</span></div>
+            </div>
+          </article>
+        </div>
+        <p class="projects-note"><span>↗</span> A personal portfolio alongside design-practice projects built while
+          developing my frontend skills.</p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container education-layout">
+        <div class="section-heading">
+          <p class="eyebrow">THE LEARNING JOURNEY</p>
+          <h2>Building a strong <span>foundation.</span></h2>
+          <p class="section-intro">Learning in the classroom and putting that knowledge into practice.</p>
+        </div>
+        <article class="education-card">
+          <div class="education-marker"><span></span></div>
+          <div class="education-details">
+            <p class="education-status">CURRENTLY STUDYING</p>
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p class="education-year">Third-year student</p>
+            <p class="education-college">G H Raisoni College of Engineering and Management, Jalgaon</p>
+          </div>
+          <span class="education-arrow" aria-hidden="true">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">HAVE A QUESTION OR AN IDEA?</p>
+          <h2>Let’s start a<br><span>conversation.</span></h2>
+          <p>I’m always happy to connect, talk about learning frontend, or hear about an interesting project. Drop me a
+            message.</p>
+          <div class="contact-aside"><span class="contact-aside-icon">↘</span><span>A small hello can be the start<br>of
+              something good.</span></div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="e.g. Alex Morgan" autocomplete="name" required>
+            <span class="field-error" id="name-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="e.g. alex@example.com" autocomplete="email"
+              required>
+            <span class="field-error" id="email-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell me what’s on your mind..."
+              required></textarea>
+            <span class="field-error" id="message-error" aria-live="polite"></span>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Send a message <span
+              aria-hidden="true">↗</span></button>
+          <p class="form-success" id="form-success" role="status" aria-live="polite"></p>
+          <p class="form-note">This demo form checks your message in the browser; it does not send email.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <a class="brand footer-brand" href="#home">us<span>.</span></a>
+      <p>Designed &amp; built with curiosity by Umrain Sayyed.</p>
+      <a class="back-to-top" href="#home">BACK TO TOP <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+
+</html>
